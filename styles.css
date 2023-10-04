@@ -1,0 +1,115 @@
+* { 
+    box-sizing: border-box; 
+}
+body{
+    background-image: url(./images/bg-body.png);
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+header{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+.datosdeentrada{
+    margin-right: 55px ;
+}
+a{
+    text-decoration: none;
+    color:  rgb(77, 77, 77);
+}
+.Logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.ellogo{
+    border-radius: 50%;
+}
+.navegacion{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.buttonn{
+    background-color: rgb(77, 77, 77);
+    color: white;
+    padding: 10px 60px;
+    margin: 0px 21px;
+}
+.vermas{
+    background-color: rgb(77, 77, 77);
+    color: white;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 45px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagenportada{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.imagenfondito{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 54px;
+}
+.portada{
+    width: 100%;
+}
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0px 30px;
+}
+.articulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imagenes{
+    width: 100%;
+}
+.pie{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(171, 0, 0);
+    border-radius: 25px 25px 0px 0px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 30px 55px 5px 55px;
+}
+.enlaces{
+    color: white;
+}
