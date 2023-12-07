@@ -94,7 +94,6 @@ main{
     text-align: center;
     margin-top: 20px;
 }
-
 .imagenes{
     width: 100%;
 }
@@ -113,3 +112,13 @@ footer{
 .enlaces{
     color: white;
 }
+@media (max-width: 1450px){
+    .buttonn{padding: 5px 40px;
+        margin: 0px 15px;}
+}
+@media (max-width: 1137px){
+    .buttonn{padding: 5px 25px;
+        margin: 0px 10px;}
+}
+
+
